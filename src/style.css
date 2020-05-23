@@ -5,10 +5,17 @@ body {
 * {
     color: #fcfdfc;
 }
-a {
-    
+a { 
     color: #7ba384;
-}
+    text-decoration: none; 
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: inset 0 -5px 0 -2px  #7ba3844D; 
+  } 
+  
+  a:hover {
+    
+    box-shadow:inset 0 -23px 0 -1px #7ba3844D; 
+  }
 h1,h2,h3,h4,h5 {
     color: #7ba384;
 }
