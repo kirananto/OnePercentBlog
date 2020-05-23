@@ -5,7 +5,7 @@ module.exports = {
       name: `Kiran Anto`,
       summary: `who loves coding, writing, fun side projects and exploring tech to simplify life`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Journey through 1 Percent rule, attempt to improve by a percent everyday.`,
     siteUrl: `https://kirananto.com`,
     social: {
       twitter: `razorsharp_007`,
