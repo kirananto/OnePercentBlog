@@ -42,9 +42,16 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          'gatsby-remark-autolink-headers',
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+            },
+          },
         ],
       },
     },
@@ -57,6 +64,38 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
+    
+    {
+      resolve: `gatsby-plugin-ebook`,
+      options: {
+        filename: 'onepercent-ebook.epub',
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                author
+              }
+            }
+            allMarkdownRemark(
+              sort: { fields: frontmatter___date, order: ASC },
+              filter: { fields: { langKey: { eq: "en" } } }
+            ) {
+              edges {
+                node {
+                  id
+                  fileAbsolutePath
+                  rawMarkdownBody
+                  frontmatter {
+                    title
+                    date
+                  }
+                }
+              }
+            }
+          }`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -77,6 +116,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'en',
+        useLangKeyLayout: false,
+      },
+    },
+    `gatsby-plugin-catch-links`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
