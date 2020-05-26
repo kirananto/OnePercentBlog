@@ -10,7 +10,7 @@ First thing, I would like to give a shout out to entire Gatsby team for developi
 Gatsby is one of the best frameworks that I've come across in my career and has helped me a lot. It's sheer simplicity and quality is what impresses me. The whole concept of JAMStack is accelerated by frameworks like gatsby. 
 
 
-## How things were n the past
+## How things were in the past ?
 
 Long back if you wanted to create a blog, it'd be complex for you 🤯, either you'll have to stick to a CMS like WordPress, Drupal or Magento, or you'll have to go for other external providers. TBH I've been always afraid of using Wordpress to do anything, this is mainly because of the git culture. In Wordpress whatever changes you make are reflected in production by default, and this is a huge problem ❌, I repeat a  huge problem, You edit a small PHP file and it could bring the entire site down. and the worst part is you'll be just clueless 🤷‍♀️ !! Now the only option is to go back to the last known good backup, and if that's not there, you're doomed 🤯. 
 
@@ -26,7 +26,7 @@ Concept of JAMStack simplifies the whole thing by creating the static files duri
 
 Now with the above approach, the main issue is who creates the content If it's not the developer ? 
 
-**isn't it a nightmare for content creators?**
+**Isn't it a nightmare for content creators?**
 
 Yes, it is... Here comes gatsby to the rescue ⛑️. Gatsby can source the content from various places during build time to create your perfect website. Your source can be just a text file, CSV or markdown files. It could even be from google sheets, airtable, various API's,  Literally any source that you can think of. 
 
