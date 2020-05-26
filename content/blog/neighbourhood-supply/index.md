@@ -3,7 +3,7 @@ title: My journey with Neighbourhood supply app 🚢
 date: "2020-05-26T22:12:03.284Z"
 description: "The whole idea was to create a platform where the public could help each other by mentioning the availability of the essential items in their neighbourhood. It worked based on public data, It grows based on the data fed by the public"
 ---
-Lately, I've been picking up lot of mini side projects for fun. I'm happy that one among those has made it to headlines 🎉. Neighbourhood supply (https://supply.netlify.app) was a fun project, this was developed in response to COVID-19 🦠 Lockdowns, it was originally created when there was a shortage of 🧼 sanitizers and 😷 masks, and people were just panicked over shortages in general. 
+Lately, I've been picking up a lot of mini side projects for fun. I'm happy that one among those has made it to headlines 🎉. Neighbourhood supply (https://supply.netlify.app) was a fun project, this was developed in response to COVID-19 🦠 Lockdowns, it was originally created when there was a shortage of 🧼 sanitizers and 😷 masks, and people were just panicked over shortages in general. 
 
 ![Neighbourhood supply](./supply.png)
 
@@ -23,7 +23,7 @@ I was not patient, I wanted to create something as soon as possible, but then I 
 
 *What is my fastest way to bring it live ?*
 
-Some of these questions i didn't have answer to. So with my whatever, i'll still do it attitude, i started drawing wireframes for the app,  For simplicity i just added two buttons in the homepage, a covid emoji as icon, and that's it. And first page was a form where i could fill in the information about the resource i know. Next was a listing page where i could see the essential items near to me. That was the whole frontend i created on react 😂 for this app.  
+Some of these questions I didn't have an answer to. So with my whatever, I'll still do it attitude, I started drawing wireframes for the app,  For simplicity, I just added two buttons in the homepage, a COVID emoji as an icon, and that's it. And the first page was a form where I could fill in the information about the resource I know. Next was a listing page where I could see the essential items near to me. That was the whole frontend I created on react 😂 for this app.  
 
 Now I wanted to create a backend where I could just store some information on the listings, and retrieve those based on proximity to the person querying the data. I knew that [firestore](https://firebase.google.com/docs/firestore) supports geospatial queries 🌎. So I quickly opened google, started searching for ways to query the same, as every developer does. Most of the results pointed to a library called [Geofire](https://www.npmjs.com/package/geofire), that helps store the data in [firestore](https://firebase.google.com/docs/firestore) as I wanted.
 
@@ -43,9 +43,9 @@ Yah that identified the three types of people visiting my app. Now it was much s
 
 #### What's left now?
 
-I was picking the location from the users browser location, so i need to give them an option to pick different location. 📍 
+I was picking the location from the users browser location, so I need to give them an option to pick different location. 📍 
 
-I wanted to make sure that no one uses vulgar language in the platform (It's not possibile to have moderation at that point) 🥴
+I wanted to make sure that no one uses vulgar language in the platform (It's not possible to have moderation at that point) 🥴
 
 I wanted to make sure that it worked on all platforms.  
 
@@ -63,14 +63,14 @@ Now, this is where friends come in, I pushed the code live, posted it on Github,
 - Plus really good support from Yadhu (CEO Esper) & Shiv (COO Esper). 
 
 In the next 2-3 days, we polished the entire UI, made it good enough to be used by people. Tested it across a set of people for feedback. everything went good. Now it was time to launch this 🚀. 
-Our whole idea was a viral approach through Whatsapp which was quite successful in the beginning. Later the app got exposure through offline and online media. We had over 5000+ users, 18 stars on github.
+Our whole idea was a viral approach through Whatsapp which was quite successful in the beginning. Later the app got exposure through offline and online media. We had over 5000+ users, 18 stars on GitHub.
 
 ![Github stars](./github.png)
 
 #### Couple of things that surprised was
 
-1. One of the largest recruiting companies in india got inspired from the the whole idea of three sentences, and was using the same one in their new covid response page. 
+1. One of the largest recruiting companies in India got inspired by the whole idea of three sentences and was using the same one in their new COVID response page. 
 2. Got my name mentioned in thehindu 😍
-3. Made my mom understand that i'm not just wasting my time infront of laptop 😂
+3. Made my mom understand that i'm not just wasting my time in front of the laptop 😂
 
 But again slowly the need for this app faded as we went through different phases of lockdown and things started getting better. But that was a really good journey. 
