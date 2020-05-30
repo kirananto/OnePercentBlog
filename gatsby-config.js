@@ -42,7 +42,13 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          'gatsby-remark-autolink-headers',
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              className: `header-links`,
+              elements: [`h1`, `h2`, 'h3'],
+            },
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
@@ -103,7 +109,7 @@ module.exports = {
         short_name: `one-percent`,
         start_url: `/`,
         background_color: `#0a0f0c`,
-        theme_color: `#663399`,
+        theme_color: `#7ba384`,
         display: `minimal-ui`,
         icon: `content/assets/profile-pic.jpg`,
       },

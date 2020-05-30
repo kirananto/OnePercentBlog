@@ -30,3 +30,7 @@ blockquote {
 img {
   filter: saturate(90%);
 }
+.header-links > svg{
+  visibility: visible !important;
+  fill: #b0bbb0 !important;
+}
