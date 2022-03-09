@@ -61,47 +61,16 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-85082173-2",
       },
     },
-    `gatsby-plugin-feed`,
-    
-    {
-      resolve: `gatsby-plugin-ebook`,
-      options: {
-        filename: 'onepercent-ebook.epub',
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                author
-              }
-            }
-            allMarkdownRemark(
-              sort: { fields: frontmatter___date, order: ASC },
-              filter: { fields: { langKey: { eq: "en" } } }
-            ) {
-              edges {
-                node {
-                  id
-                  fileAbsolutePath
-                  rawMarkdownBody
-                  frontmatter {
-                    title
-                    date
-                  }
-                }
-              }
-            }
-          }`,
-      },
-    },
+    // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -109,9 +78,9 @@ module.exports = {
         short_name: `one-percent`,
         start_url: `/`,
         background_color: `#0a0f0c`,
-        theme_color: `#7ba384`,
+        theme_color: `#bf494a`,
         display: `minimal-ui`,
-        icon: `content/assets/profile-pic.jpg`,
+        icon: `content/assets/profile-pic.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
