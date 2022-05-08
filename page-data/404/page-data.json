@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-404-js","path":"/404/","result":{"data":{"site":{"siteMetadata":{"title":"1Percent Blog  Kiran Anto"}}},"pageContext":{"slug":"/404/","langKey":"en"}}}
+{
+    "componentChunkName": "component---src-pages-404-js",
+    "path": "/404/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"1Percent Blog  Kiran Anto"}}},"pageContext":{"slug":"/404/","langKey":"en"}},
+    "staticQueryHashes": ["2841359383"]}
