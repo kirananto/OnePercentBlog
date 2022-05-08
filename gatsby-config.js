@@ -77,7 +77,7 @@ module.exports = {
         name: `1Percent Blog  Kiran Anto`,
         short_name: `one-percent`,
         start_url: `/`,
-        background_color: `#0a0f0c`,
+        background_color: `#0b0707`,
         theme_color: `#bf494a`,
         display: `minimal-ui`,
         icon: `content/assets/profile-pic.png`,
