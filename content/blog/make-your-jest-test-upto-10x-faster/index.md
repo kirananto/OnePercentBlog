@@ -4,6 +4,8 @@ date: "2022-05-25T22:12:03.284Z"
 description: "Tips on how to make your jest tests drastically faster, hence improving the developer productivity."
 ---
 
+![Jest image](./jest.png)
+
 Imagine having to wait for 30 mins to finish the unit tests for a medium scale react project. A developer who wants to merge his code will have to now wait additional 30 mins for the build checks, which is entirely frustrating. To focus on the velocity, this is when we decided to take some actions to improve this.
 
 Like what we all do, we started searching for different methods to improve the jest performance on google. This article lists down all the observations we had and the results. It may or may not work for your configuration, But I recommend going through this article and trying each method to see if it makes any difference.
