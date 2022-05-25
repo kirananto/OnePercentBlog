@@ -34,3 +34,27 @@ img {
   visibility: visible !important;
   fill: #bbb0b3 !important;
 }
+
+pre[class*="language-"] {
+  background: #2e0101 !important;
+  border-radius: 5px;
+  /* color: white !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+  text-shadow: none !important; */
+}
+
+code[class*="language-"] {
+  background: #2e0101 !important;
+  color: #ccc2c4 !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+  text-shadow: none !important;
+}
+.token.operator {
+  background: none !important;
+}
