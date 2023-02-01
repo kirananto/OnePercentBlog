@@ -1,30 +1,30 @@
 body {
-  background: #0b0707;
+  background: #1f222a;
 }
 
 * {
-  color: #bbb0b3;
+  color: #b0bbb6;
 }
 a {
-  color: #bf494a;
+  color: #34d399;
   text-decoration: none;
   transition: box-shadow 0.2s ease-in-out;
-  box-shadow: inset 0 -5px 0 -2px #bf494a4d;
+  box-shadow: inset 0 -5px 0 -2px rgba(52, 211, 153, 0.21);
 }
 
 a:hover {
-  box-shadow: inset 0 -23px 0 -1px #bf494a4d;
+  box-shadow: inset 0 -23px 0 -1px rgba(52, 211, 153, 0.21);
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  color: #bf494a;
+  color: #34d399;
 }
 
 blockquote {
-  border-left: 0.32813rem solid #bf494a;
+  border-left: 0.32813rem solid #34d399;
 }
 
 img {
@@ -32,11 +32,11 @@ img {
 }
 .header-links > svg{
   visibility: visible !important;
-  fill: #bbb0b3 !important;
+  fill: #34d399 !important;
 }
 
 pre[class*="language-"] {
-  background: #2e0101 !important;
+  background: #022f24 !important;
   border-radius: 5px;
   /* color: white !important;
   padding-left: 3px !important;
@@ -47,8 +47,8 @@ pre[class*="language-"] {
 }
 
 code[class*="language-"] {
-  background: #2e0101 !important;
-  color: #ccc2c4 !important;
+  background: #022f24 !important;
+  color: #10b981 !important;
   padding-left: 3px !important;
   padding-right: 3px !important;
   margin-left: 3px !important;
