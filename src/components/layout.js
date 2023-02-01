@@ -11,7 +11,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1.2),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -52,8 +52,9 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        maxWidth: rhythm(26),
+        border: '1px solid rgb(52 211 153 / 57%)',
+        padding: `${rhythm(1.5)} ${rhythm(2)}`,
       }}
     >
       <header>{header}</header>
