@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkone_percent_blog=self.webpackChunkone_percent_blog||[]).push([[883],{429:function(e,t,n){n.r(t);var l=n(7294),a=n(8678),o=n(8183);t.default=e=>{let{data:t,location:n}=e;const s=t.site.siteMetadata.title;return l.createElement(a.Z,{location:n,title:s},l.createElement(o.Z,{title:"404: Not Found"}),l.createElement("h1",null,"Not Found"),l.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-3a876306fc8b2ca0c212.js.map
