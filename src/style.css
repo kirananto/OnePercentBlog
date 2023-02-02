@@ -45,6 +45,13 @@ pre[class*="language-"] {
   margin-right: 3px !important;
   text-shadow: none !important; */
 }
+blockquote {
+  background: #34d39912;
+  margin-left: 0px;
+}
+ol {
+  margin-left: 25px;
+}
 
 code[class*="language-"] {
   background: #022f24 !important;
